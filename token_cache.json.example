@@ -1,0 +1,41 @@
+{
+  "Account": {
+    "your-account-id": {
+      "auth_time": 0000000000,
+      "client_id": "your-client-id",
+      "environment": "login.microsoftonline.com",
+      "home_account_id": "your-home-account-id",
+      "local_account_id": "your-local-account-id",
+      "realm": "your-tenant-id",
+      "username": "your.email@example.com"
+    }
+  },
+  "AppMetadata": {
+    "appmetadata-key": {
+      "client_id": "your-client-id",
+      "environment": "login.microsoftonline.com"
+    }
+  },
+  "RefreshToken": {
+    "refresh-token-key": {
+      "client_id": "your-client-id",
+      "environment": "login.microsoftonline.com",
+      "home_account_id": "your-home-account-id",
+      "refresh_token": "EXAMPLE-REFRESH-TOKEN",
+      "target": "your-scope"
+    }
+  },
+  "AccessToken": {
+    "access-token-key": {
+      "client_id": "your-client-id",
+      "environment": "login.microsoftonline.com",
+      "home_account_id": "your-home-account-id",
+      "realm": "your-tenant-id",
+      "target": "your-scope",
+      "cached_at": "0000000000",
+      "expires_on": "0000000000",
+      "extended_expires_on": "0000000000",
+      "access_token": "EXAMPLE-ACCESS-TOKEN"
+    }
+  }
+}

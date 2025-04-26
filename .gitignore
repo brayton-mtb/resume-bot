@@ -1,0 +1,55 @@
+# Sensitive files
+.env
+service_account.json
+token_cache.json
+token_user_cache.json
+last_run.json
+
+# Backup files
+applicants_backup_*.zip
+
+# Credential files with real secrets
+*.key
+*.pem
+*.p12
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
